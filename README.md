@@ -3,6 +3,7 @@ Helping the residents of SQL City raise funds for its annual local festival whil
 
 
 --STEP 1: CREATING THE DATABASE SQL CITY
+
 --CODE SYNTAX:
 CREATE DATABASE &quot;sql city&quot;;
 
@@ -18,6 +19,7 @@ database from where it is stored
 7. Database is successfully restored once the restoring backup process is started and
 completed
 */
+
 --STEP 3: DEFINING PARAMETERS
 /*
 MY ROLE: Community Database Analyst
@@ -60,7 +62,7 @@ income
 ON
 income.ssn = person.ssn;
 
---5. Rename the joined table as &#39;joined_personincome&#39;
+--5. Rename the joined table as joined_personincome
 --CODE SYNTAX
 
 CREATE TABLE joined_personincome AS
